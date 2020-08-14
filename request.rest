@@ -1,0 +1,11 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZ290aG9uZSIsImlhdCI6MTU5NzQxNjU1Nn0.4e_mZmUMSOVsvcfb92FVTNGx9vCOddV-exoI6pqR-oM
+
+###
+
+POST http://localhost:4000/login
+Content-type :application/json
+
+{
+    "username":"gothone"
+}
